@@ -8,7 +8,7 @@ WORKDIR ${HOME}
 
 # ローカル上のpackageをコンテナにコピーしてインストールする
 COPY package*.json ./
-RUN yarn install
+RUN npm install
 
 
 # コンテナにNextプロジェクトをコピー

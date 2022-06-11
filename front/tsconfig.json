@@ -4,8 +4,7 @@
     "lib": [
       "dom",
       "dom.iterable",
-      "esnext",
-      "ES2018"
+      "esnext"
     ],
     "allowJs": true,
     "skipLibCheck": true,

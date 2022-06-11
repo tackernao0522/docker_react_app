@@ -6,7 +6,7 @@ services:
         context: ./front
         args:
           WORKDIR: $WORKDIR
-      command: yarn start
+      command: npm start
       volumes:
         - "./front:/$WORKDIR"
       ports:

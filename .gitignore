@@ -1,4 +1,1 @@
-front/node_modules/*
-front/yarn-error.log
-front/.ash_history
-front/.npm/
+front/node_modules/.bin/escodegen
